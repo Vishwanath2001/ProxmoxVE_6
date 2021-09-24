@@ -39,6 +39,6 @@ proxmoxVE is a open source and free to use for personal use and they have many s
 Download it from here:
 https://www.proxmox.com/en/proxmox-ve
 
-
+It is pretty straight installation but there are certain tweeks we need to make
 
 
