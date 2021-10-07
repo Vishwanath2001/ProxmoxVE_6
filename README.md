@@ -40,5 +40,18 @@ Download it from here:
 https://www.proxmox.com/en/proxmox-ve
 
 It is pretty straight forward installation but there are certain tweeks we need to make
+![image](https://user-images.githubusercontent.com/76242298/136316987-72bda7e2-f888-40f3-94fa-656b705db814.png)
+Make sure to check all the 3 checkboxes as shown below
+![image](https://user-images.githubusercontent.com/76242298/136317223-625cd7f1-7ca2-4f26-8d1f-8b202b2048ff.png)
+Under Network Adapter select bridged so vm can connect to host network
+![image](https://user-images.githubusercontent.com/76242298/136317360-98b5b1fb-cfee-4788-a163-7b0e047ac576.png)
+Now start the vm
+![image](https://user-images.githubusercontent.com/76242298/136317533-828aef0f-e1fa-42f1-b044-fe0ca6dd8ae9.png)
+Give hostname of your choice and ip address as shown below
+![image](https://user-images.githubusercontent.com/76242298/136317780-8c5e00a9-e909-482f-83eb-92060b309626.png)
+After confirming the configuration go ahead and install it
+![image](https://user-images.githubusercontent.com/76242298/136317941-7323ae85-56f7-4dc8-89dc-9f40b720c1e9.png)
+
+
 
 
