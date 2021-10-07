@@ -78,6 +78,42 @@ Once you login this is how your inteface will look like
 
 ![image](https://user-images.githubusercontent.com/76242298/136337541-d14c91bd-21af-4591-bfe4-43da61691f8e.png)
 
+You can use terminal from proxmoxve to operate or you can use external application like putty
+
+you can confirm your debian and proxmox version as shown below
+
+![image](https://user-images.githubusercontent.com/76242298/136338524-9ae5b946-f9a6-4bca-bcec-bbf0eecaa1de.png)
+
+## Creating virtual machine
+### Add the iso file to proxmox first
+
+![image](https://user-images.githubusercontent.com/76242298/136353533-31d58f62-e6dd-497c-bcfd-3153664e7bf3.png)
+
+Now we can create a vm by clicking the button
+
+![image](https://user-images.githubusercontent.com/76242298/136353277-a006a8a1-bbfa-4882-bf4f-9de7524e84fd.png)
+
+configure the vm 
+
+![image](https://user-images.githubusercontent.com/76242298/136353691-710a825b-ff07-4377-b306-ad6e9c53d9da.png)
+
+Summary of vm we created 
+
+![image](https://user-images.githubusercontent.com/76242298/136354050-5fcd9c52-85a0-442d-b2ad-b05dce5d131f.png)
+
+In bottom section we can see the task that is done
+
+![image](https://user-images.githubusercontent.com/76242298/136354224-8b1f6867-b012-4b08-81eb-023a2e67dbaf.png)
+
+Here i have use lubuntu a very light weight linux os 
+
+![image](https://user-images.githubusercontent.com/76242298/136355908-c67ec580-fcc9-4043-a741-b28e83614841.png)
+
+Below is the image of options you can play around of a vm
+
+Since our server is ruuning on vm kvm hardware virtualization is not set. But if it was a physical server than it should be enabled
+
+![image](https://user-images.githubusercontent.com/76242298/136358031-6767b777-e9d4-4f9e-877f-9b508829a306.png)
 
 
 
