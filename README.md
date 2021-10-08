@@ -125,6 +125,22 @@ Download any template,I will go with centos default 8
 
 ![image](https://user-images.githubusercontent.com/76242298/136500667-0cd11f2b-6427-4b54-a1cd-e21d07e75627.png)
 
+Now create container by clicking on top right corner and configure it
+
+![image](https://user-images.githubusercontent.com/76242298/136501841-5f1d34f5-1379-492e-9db3-e8b5dcf26989.png)
+
+![image](https://user-images.githubusercontent.com/76242298/136502131-53b7fc85-1c3a-428b-91c9-0a99b792a241.png)
+
+Now it should be working
+
+![image](https://user-images.githubusercontent.com/76242298/136502282-a938db1e-8fb2-4af4-9c3b-f758c92ee08b.png)
+
+Now containers can be controlled from host kernel itself , Here I am executing command from host shell
+
+![image](https://user-images.githubusercontent.com/76242298/136502514-e5e94f9d-d6ae-4198-b478-e8f82a7aae04.png)
+
+
+
 
 
 
