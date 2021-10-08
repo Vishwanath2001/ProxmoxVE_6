@@ -115,6 +115,17 @@ Since our server is ruuning on vm kvm hardware virtualization is not set. But if
 
 ![image](https://user-images.githubusercontent.com/76242298/136358031-6767b777-e9d4-4f9e-877f-9b508829a306.png)
 
+## Containers
+
+Before creating container we should first download template
+
+![image](https://user-images.githubusercontent.com/76242298/136500396-ea36d805-a252-463f-bde6-25d80a74f0dc.png)
+
+Download any template,I will go with centos default 8
+
+![image](https://user-images.githubusercontent.com/76242298/136500667-0cd11f2b-6427-4b54-a1cd-e21d07e75627.png)
+
+
 
 
 
