@@ -139,6 +139,30 @@ Now containers can be controlled from host kernel itself , Here I am executing c
 
 ![image](https://user-images.githubusercontent.com/76242298/136502514-e5e94f9d-d6ae-4198-b478-e8f82a7aae04.png)
 
+## Advanced Memory Configuration
+
+In Proxmox it has a feature to set minium memory for a given Virtual machine or any container as a whole. This enables us to implement Ballooning concept
+
+Basically we can allocate  memory to all the virtual machine which total would be greater than the underlying hardware capabality. This is possible because the underlying hypervisor in our case Proxmox will make sure to allocate memory dynamically at a given time based on the need of individual machine . But since we can allocate minimum memory 
+it make sures minimum memory is always allocated and there is no starvation as shown in below image.
+
+![image](https://user-images.githubusercontent.com/76242298/139872600-bf45cf35-c8f7-4ce3-906d-f67a98a1a907.png)
+
+
+## Network Configuration
+
+### Creating a Bond interface
+We can create any type of network configuration by clicking on create first 
+![image](https://user-images.githubusercontent.com/76242298/139873721-288bd700-b9d5-47f3-8445-006d938c9d2c.png)
+
+Now if I try pinging the ip addrress of bond and in the middle if I disconnect one network adapter the other network adapter should be able to take car of it 
+
+![image](https://user-images.githubusercontent.com/76242298/139875701-e431de71-98b5-478f-94c6-bb42beac64ad.png)
+
+In the above snapshot there is only 1 time when there is request timed out but after that it once agains starts pinging
+
+
+
 
 
 
